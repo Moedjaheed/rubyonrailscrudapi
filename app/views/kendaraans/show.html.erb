@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nama Employee:</strong>
+  <%= @kendaraan.employee.name %>
+</p>
+
+<p>
+  <strong>Employee ID:</strong>
+  <%= @kendaraan.employee_id %>
+</p>
+
+<p>
+  <strong>Merk Kendaraan:</strong>
+  <%= @kendaraan.merk_kendaraan %>
+</p>
+
+<p>
+  <strong>Tipe Kendaraan:</strong>
+  <%= @kendaraan.tipe_kendaraan %>
+</p>
+
+<%= link_to 'Edit', edit_kendaraan_path(@kendaraan) %> |
+<%= link_to 'Back', kendaraans_path %>
